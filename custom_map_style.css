@@ -1,0 +1,29 @@
+html, body {height: 100%;  margin: 0; padding: 0;}
+      #map {width: 100%; height:100%; float: left}           
+      
+      #tooltip-div {
+        align-content: center;
+        display: none;
+        border-radius: 5px;
+        position:absolute;
+        font-size: 14px;
+        width: 150px;
+        height: 15px;
+        background-color: #fff;
+        padding: 5px;
+        z-index: 1000;
+      }
+      #region-list-div{
+        position: relative;        
+        padding: 10px;
+        background: transparent;        
+        width:100px;
+        height: 150px;
+        overflow: auto
+      }
+      #region-list-select{
+        height: 25px;
+      }
+      span,  a{
+        display: none
+      }

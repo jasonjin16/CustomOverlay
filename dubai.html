@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="custom_map_style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="palm.jumeirah.js"></script>
+    <script src="dubai.region.js"></script>    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZP30Jvh2Xvx3hE802ZVwrGIZQVZl5tfk">
+     </script>
+  </head>
+  <body>
+    <div id="tooltip-div"></div>    
+    <div id="map"></div>
+    <div style="clear: both"></div>    
+    <div id="region-list-div" data-toggle="dropdown">All Region
+      <ul id="region-list-ul"></ul>
+    </div>    
+    <select id="region-list-select" onchange="selectCurrentRegionInDubai()"></select>  
+    <script src="custom_map.js"></script>    
+  </body>
+</html>
